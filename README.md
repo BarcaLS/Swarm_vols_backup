@@ -52,18 +52,6 @@ The script is designed for admins managing multi-node Docker Swarm clusters with
 
 ---
 
-## Installation
-
-Clone the repository:
-
-```bash
-git clone https://github.com/your/repo.git
-cd repo
-chmod +x backup.sh
-```
-
----
-
 ## Configuration
 
 At the top of the script:
@@ -129,19 +117,6 @@ Example:
 
 ```bash
 ./backup.sh wiki search
-```
-
----
-
-## Example Backup Output
-
-```
-Backup will be stored in: /opt/backups/stacks/wiki-20251114-130501
-Connecting to server1...
-Packing volume wiki_db (1/2)...
-Packing volume wiki_data (2/2)...
-Copying files...
-Backup completed successfully!
 ```
 
 ---

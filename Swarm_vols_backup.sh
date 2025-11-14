@@ -1,4 +1,3 @@
-root@zswpmt1:/opt/backups# cat Stack_Backup.sh 
 #!/bin/bash
 
 # Configuration
